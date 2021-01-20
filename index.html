@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <!-- Author Tarique Ansari -->
         <!-- Required meta tags always come first -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -13,6 +14,15 @@
         <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">   
         <link rel="stylesheet" href="/css/style.css">    
         <title>Ristorante Con Fusion</title>
+        <style>
+            .btn-block{
+            background-color: hsla(59, 94%,51%,0.733);
+            }
+        .mx-exp{
+            margin-top: 3.4rem;
+            }
+        
+        </style>
 </head>
 
 <body>
@@ -48,7 +58,17 @@
                         <img src="img/logo.png" class="img-fluid">
                     </div>
                 </div>
+                
+                    <div class="col-12 col-sm">
+                        <div class="col-12 col-sm align-self-center mx-exp">
+                        <a href="#rev"><button class="btn btn-block">Reserve Table
+                            
+                        </button></a>
+                        </div>
+                    </div>
+                
             </div>
+            
         </div>
     </header>
 
@@ -79,8 +99,18 @@
                 <h3>This Month's Promotions</h3>
             </div>
             <div class="col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class="media">
+                <div class="media-body">
+                <h2>Weekend Grand Buffet <span class="badge badge-danger">NEW</span></h2>
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice
+                     of five different salads, six enticing appetizers, six main entrees 
+                     and five choicest desserts. Free flowing bubbly and soft drinks. 
+                     All for just $19.99 per person </p>
+                </div>
+                
+                     <img class="d-flex ml-3 img-thumbnail align-self-center"
+                            src="img/buffet.png" alt="Alberto Somayya">
+                </div>
             </div>
         </div>
 
@@ -102,7 +132,55 @@
                             </p>
                     </div>
                 </div>
-                
+            </div>
+        </div>
+    </div>
+    <div class="container" id="rev">
+        <div class="row">
+            <div class="col-12 col-sm-6 mx-auto">
+                <div class="card">
+                    <h3 class="card-header bg-warning text-white" >Reserver a Table</h3>
+                    <div class="card-body">
+                     <div class="row">  
+                         <div class="col-3">Number of Guests </div>
+                         <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">1</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">2</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">3</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">4</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">5</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">6</label>
+                          </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">Date and Time</div>
+                            <div class="col-4"><input class="form-control" type="text" placeholder="Date"></div>
+                            <div class="col-4"><input class="form-control" type="text" placeholder="Time"></div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mx-auto">
+                            <input type="button" class="btn btn-primary" value="Reserve">
+                        </div>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
